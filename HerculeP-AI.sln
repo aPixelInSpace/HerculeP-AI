@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4410BB4E-CB22-4B10-953C-B19CE553F026}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F91F9B50-7B9A-455E-B2E6-7BD3CE729863}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "HerculeP.CLI", "src\HerculeP.CLI\HerculeP.CLI.fsproj", "{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD} = {4410BB4E-CB22-4B10-953C-B19CE553F026}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9E41DE6-B1D3-47B6-A97C-A8DEE518CBCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
