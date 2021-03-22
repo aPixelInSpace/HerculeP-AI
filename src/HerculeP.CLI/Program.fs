@@ -3,11 +3,13 @@
 // Learn more about F# at http://docs.microsoft.com/dotnet/fsharp
 
 open System
-open HerculeP.CLI.MBML.MurderMistery
+open HerculeP.CLI
 
 [<EntryPoint>]
 let main argv =
     
-    runExperiments()
+    InferTutorial.TwoCoins.runExperiments()
+    
+    GDL.FSharp.FirstNeuralNetwork.runExperiments()
     
     0 // return an integer exit code
