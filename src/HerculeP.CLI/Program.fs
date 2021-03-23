@@ -8,8 +8,10 @@ open HerculeP.CLI
 [<EntryPoint>]
 let main argv =
     
-    InferTutorial.TwoCoins.runExperiments()
+    //InferTutorial.TwoCoins.runExperiments()
     
     GDL.FSharp.FirstNeuralNetwork.runExperiments()
+    
+    GDL.FSharp.MultipleInputsNeuralNetwork.runExperiments()
     
     0 // return an integer exit code

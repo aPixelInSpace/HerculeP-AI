@@ -19,6 +19,6 @@ let runExperiments() =
     
     let pred = neuralNetwork input weight
     
-    printfn "%A" pred
+    printfn "Prediction %A" pred
     
     ()

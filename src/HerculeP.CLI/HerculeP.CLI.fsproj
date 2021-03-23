@@ -10,6 +10,7 @@
         <Compile Include="MBML\MurderMystery.fs" />
         <Compile Include="InferTutorial\TwoCoins.fs" />
         <Compile Include="GDL\FSharp\FirstNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\MultipleInputsNeuralNetwork.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
@@ -19,6 +20,7 @@
       <PackageReference Include="Microsoft.ML.Probabilistic.Compiler.Visualizers.Windows" Version="0.3.1912.403" />
       <PackageReference Include="Microsoft.ML.Probabilistic.Learners" Version="0.3.2102.1701" />
       <PackageReference Include="Microsoft.ML.Probabilistic.Visualizers.Windows" Version="0.3.2102.1701" />
+      <PackageReference Include="NumSharp" Version="0.30.0" />
     </ItemGroup>
 
 </Project>
