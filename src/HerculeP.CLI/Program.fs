@@ -10,8 +10,12 @@ let main argv =
     
     //InferTutorial.TwoCoins.runExperiments()
     
-    GDL.FSharp.FirstNeuralNetwork.runExperiments()
+    GDL.FSharp.OneInputOneOutputNeuralNetwork.runExperiments()
     
-    GDL.FSharp.MultipleInputsNeuralNetwork.runExperiments()
+    GDL.FSharp.MultipleInputsOneOutputNeuralNetwork.runExperiments()
+    
+    GDL.FSharp.OneInputMultipleOutputsNeuralNetwork.runExperiments()
+    
+    GDL.FSharp.MultipleInputsMultipleOutputsNeuralNetwork.runExperiments()
     
     0 // return an integer exit code

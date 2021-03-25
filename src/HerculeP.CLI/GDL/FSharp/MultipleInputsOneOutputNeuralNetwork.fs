@@ -1,9 +1,12 @@
-﻿module HerculeP.CLI.GDL.FSharp.MultipleInputsNeuralNetwork
+﻿// This code is from the book "Grokking Deep Learning" (I just re-implemented it in F# instead of Python)
+// See https://github.com/iamtrask/Grokking-Deep-Learning and https://www.manning.com/books/grokking-deep-learning?a_aid=grokkingdl&a_bid=32715258
+
+module HerculeP.CLI.GDL.FSharp.MultipleInputsOneOutputNeuralNetwork
 
 open NumSharp
 
 [<Literal>]
-let title = "Multiple inputs neural network"
+let title = "Multiple inputs, one output neural network"
 
 let runExperiments() =
     
@@ -36,7 +39,6 @@ let runExperiments() =
     
     let np_input = np.array([| numberOfToes.[0]; wlrec.[0]; nfans.[0] |])
     
-    let np_pred = np_input.dot(&np_weights)
+    let np_pred = np_input.dot(&np_weights) // same as the w_sum defined earlier
     
     printfn "Prediction (NumSharp) %A" (np_pred.GetValue(0))
-    ()

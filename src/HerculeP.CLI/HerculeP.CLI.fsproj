@@ -9,8 +9,10 @@
         <Compile Include="FSharpWrapper.fs" />
         <Compile Include="MBML\MurderMystery.fs" />
         <Compile Include="InferTutorial\TwoCoins.fs" />
-        <Compile Include="GDL\FSharp\FirstNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\MultipleInputsNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\OneInputOneOutputNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\MultipleInputsOneOutputNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\OneInputMultipleOutputsNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\MultipleInputsMultipleOutputsNeuralNetwork.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 

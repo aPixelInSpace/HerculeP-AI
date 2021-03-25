@@ -1,6 +1,4 @@
-﻿// Copyright 2020-2021 Patrizio Amella. All rights reserved. See License file in the project root for more information.
-
-// https://dotnet.github.io/infer/userguide/Two%20coins%20tutorial.html
+﻿// https://dotnet.github.io/infer/userguide/Two%20coins%20tutorial.html
 
 module HerculeP.CLI.InferTutorial.TwoCoins
 
