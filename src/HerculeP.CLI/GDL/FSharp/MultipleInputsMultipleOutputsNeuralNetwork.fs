@@ -21,7 +21,7 @@ let runExperiments() =
         ((0.0), a, b) |||> Seq.fold2 (fun state a b -> state + (a * b))
 
     let vect_mat_mul vector matrix =
-        matrix |> Array.map(w_sum vector)
+        matrix |> Seq.map(w_sum vector)
 
     let neuralNetwork input weights =
         let prediction = vect_mat_mul input weights
