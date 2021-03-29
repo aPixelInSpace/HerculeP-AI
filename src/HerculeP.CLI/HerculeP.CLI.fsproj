@@ -13,6 +13,7 @@
         <Compile Include="GDL\FSharp\MultipleInputsOneOutputNeuralNetwork.fs" />
         <Compile Include="GDL\FSharp\OneInputMultipleOutputsNeuralNetwork.fs" />
         <Compile Include="GDL\FSharp\MultipleInputsMultipleOutputsNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\PredictionsAsInputsForNeuralNetwork.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 

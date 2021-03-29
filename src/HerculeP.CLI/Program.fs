@@ -18,4 +18,6 @@ let main argv =
     
     GDL.FSharp.MultipleInputsMultipleOutputsNeuralNetwork.runExperiments()
     
+    GDL.FSharp.PredictionsAsInputsForNeuralNetwork.runExperiments()
+    
     0 // return an integer exit code
