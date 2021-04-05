@@ -20,4 +20,12 @@ let main argv =
     
     GDL.FSharp.PredictionsAsInputsForNeuralNetwork.runExperiments()
     
+    GDL.FSharp.PredictionsEvaluation.runExperiments()
+    
+    GDL.FSharp.HotAndColdLearning.runExperiments()
+    
+    GDL.FSharp.HotAndColdLearningIterations.runExperiments()
+    
+    GDL.FSharp.GradientDescent.runExperiments()
+    
     0 // return an integer exit code

@@ -14,6 +14,10 @@
         <Compile Include="GDL\FSharp\OneInputMultipleOutputsNeuralNetwork.fs" />
         <Compile Include="GDL\FSharp\MultipleInputsMultipleOutputsNeuralNetwork.fs" />
         <Compile Include="GDL\FSharp\PredictionsAsInputsForNeuralNetwork.fs" />
+        <Compile Include="GDL\FSharp\PredictionsEvaluation.fs" />
+        <Compile Include="GDL\FSharp\HotAndColdLearning.fs" />
+        <Compile Include="GDL\FSharp\HotAndColdLearningIterations.fs" />
+        <Compile Include="GDL\FSharp\GradientDescent.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
