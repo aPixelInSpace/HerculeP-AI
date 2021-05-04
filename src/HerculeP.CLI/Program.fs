@@ -28,4 +28,6 @@ let main argv =
     
     GDL.FSharp.GradientDescent.runExperiments()
     
+    GDL.FSharp.GradientDescentOneIteration.runExperiments()
+    
     0 // return an integer exit code

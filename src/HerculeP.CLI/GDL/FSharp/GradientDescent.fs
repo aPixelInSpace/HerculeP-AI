@@ -26,6 +26,6 @@ let runExperiments() =
         weight <- weight - direction_and_amount
         
         if iteration % 4 = 0 then
-            printfn "Error : %A Prediction : %A" error pred
+            printfn $"Error : {error} Prediction : {pred}"
 
-    printfn "Found weight is %A" weight
+    printfn $"Found weight is {weight}"

@@ -18,6 +18,7 @@
         <Compile Include="GDL\FSharp\HotAndColdLearning.fs" />
         <Compile Include="GDL\FSharp\HotAndColdLearningIterations.fs" />
         <Compile Include="GDL\FSharp\GradientDescent.fs" />
+        <Compile Include="GDL\FSharp\GradientDescentOneIteration.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
