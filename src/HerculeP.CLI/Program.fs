@@ -4,30 +4,33 @@
 
 open System
 open HerculeP.CLI
+open HerculeP.CLI.GDL.FSharp
 
 [<EntryPoint>]
 let main argv =
-    
+
     //InferTutorial.TwoCoins.runExperiments()
-    
-    GDL.FSharp.OneInputOneOutputNeuralNetwork.runExperiments()
-    
-    GDL.FSharp.MultipleInputsOneOutputNeuralNetwork.runExperiments()
-    
-    GDL.FSharp.OneInputMultipleOutputsNeuralNetwork.runExperiments()
-    
-    GDL.FSharp.MultipleInputsMultipleOutputsNeuralNetwork.runExperiments()
-    
-    GDL.FSharp.PredictionsAsInputsForNeuralNetwork.runExperiments()
-    
-    GDL.FSharp.PredictionsEvaluation.runExperiments()
-    
-    GDL.FSharp.HotAndColdLearning.runExperiments()
-    
-    GDL.FSharp.HotAndColdLearningIterations.runExperiments()
-    
-    GDL.FSharp.GradientDescent.runExperiments()
-    
-    GDL.FSharp.GradientDescentOneIteration.runExperiments()
-    
+
+    OneInputOneOutputNeuralNetwork.runExperiments()
+
+    MultipleInputsOneOutputNeuralNetwork.runExperiments()
+
+    OneInputMultipleOutputsNeuralNetwork.runExperiments()
+
+    MultipleInputsMultipleOutputsNeuralNetwork.runExperiments()
+
+    PredictionsAsInputsForNeuralNetwork.runExperiments()
+
+    PredictionsEvaluation.runExperiments()
+
+    HotAndColdLearning.runExperiments()
+
+    HotAndColdLearningIterations.runExperiments()
+
+    GradientDescent.runExperiments()
+
+    GradientDescentOneInput.runExperiments()
+
+    GradientDescentMultipleInputs.runExperiments()
+
     0 // return an integer exit code
