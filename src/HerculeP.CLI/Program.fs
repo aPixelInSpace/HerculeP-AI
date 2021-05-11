@@ -32,5 +32,7 @@ let main argv =
     GradientDescentOneInput.runExperiments()
 
     GradientDescentMultipleInputs.runExperiments()
+    
+    GradientDescentOneInputMultipleOutputs.runExperiments()
 
     0 // return an integer exit code

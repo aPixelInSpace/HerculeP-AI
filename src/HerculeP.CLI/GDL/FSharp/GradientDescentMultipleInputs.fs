@@ -19,7 +19,7 @@ let runExperiments() =
     let weightsString weights =
         (String.Empty, weights) ||> Seq.fold(fun s w -> s + w.ToString() + "; ")
 
-    printfn $"Weights are {weightsString weights}" 
+    printfn $"Weights are {weightsString weights}"
 
     let neural_network input weights =
         w_sum input weights
