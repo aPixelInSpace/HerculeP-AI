@@ -21,6 +21,7 @@
         <Compile Include="GDL\FSharp\GradientDescentOneInput.fs" />
         <Compile Include="GDL\FSharp\GradientDescentMultipleInputs.fs" />
         <Compile Include="GDL\FSharp\GradientDescentOneInputMultipleOutputs.fs" />
+        <Compile Include="GDL\FSharp\GradientDescentMultipleInputsMultipleOutputs.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
