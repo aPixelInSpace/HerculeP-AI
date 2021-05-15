@@ -7,21 +7,23 @@
 
     <ItemGroup>
         <Compile Include="FSharpWrapper.fs" />
+        <Compile Include="GDL\OneInputOneOutputNeuralNetwork.fs" />
+        <Compile Include="GDL\MultipleInputsOneOutputNeuralNetwork.fs" />
+        <Compile Include="GDL\OneInputMultipleOutputsNeuralNetwork.fs" />
+        <Compile Include="GDL\MultipleInputsMultipleOutputsNeuralNetwork.fs" />
+        <Compile Include="GDL\PredictionsAsInputsForNeuralNetwork.fs" />
+        <Compile Include="GDL\PredictionsEvaluation.fs" />
+        <Compile Include="GDL\HotAndColdLearning.fs" />
+        <Compile Include="GDL\HotAndColdLearningIterations.fs" />
+        <Compile Include="GDL\GradientDescent.fs" />
+        <Compile Include="GDL\GradientDescentOneInput.fs" />
+        <Compile Include="GDL\GradientDescentMultipleInputs.fs" />
+        <Compile Include="GDL\GradientDescentOneInputMultipleOutputs.fs" />
+        <Compile Include="GDL\GradientDescentMultipleInputsMultipleOutputs.fs" />
+        <Compile Include="GDL\StreetLightsNumSharp.fs" />
+        <Compile Include="GDL\StreetLightsNumSharpLearnAll.fs" />
         <Compile Include="MBML\MurderMystery.fs" />
         <Compile Include="InferTutorial\TwoCoins.fs" />
-        <Compile Include="GDL\FSharp\OneInputOneOutputNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\MultipleInputsOneOutputNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\OneInputMultipleOutputsNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\MultipleInputsMultipleOutputsNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\PredictionsAsInputsForNeuralNetwork.fs" />
-        <Compile Include="GDL\FSharp\PredictionsEvaluation.fs" />
-        <Compile Include="GDL\FSharp\HotAndColdLearning.fs" />
-        <Compile Include="GDL\FSharp\HotAndColdLearningIterations.fs" />
-        <Compile Include="GDL\FSharp\GradientDescent.fs" />
-        <Compile Include="GDL\FSharp\GradientDescentOneInput.fs" />
-        <Compile Include="GDL\FSharp\GradientDescentMultipleInputs.fs" />
-        <Compile Include="GDL\FSharp\GradientDescentOneInputMultipleOutputs.fs" />
-        <Compile Include="GDL\FSharp\GradientDescentMultipleInputsMultipleOutputs.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
@@ -32,6 +34,10 @@
       <PackageReference Include="Microsoft.ML.Probabilistic.Learners" Version="0.3.2102.1701" />
       <PackageReference Include="Microsoft.ML.Probabilistic.Visualizers.Windows" Version="0.3.2102.1701" />
       <PackageReference Include="NumSharp" Version="0.30.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="GDL\.ipynb_checkpoints\**" />
     </ItemGroup>
 
 </Project>

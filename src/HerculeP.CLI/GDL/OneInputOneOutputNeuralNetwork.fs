@@ -1,7 +1,7 @@
 ﻿// This code is from the book "Grokking Deep Learning" (I just re-implemented it in F# instead of Python)
 // See https://github.com/iamtrask/Grokking-Deep-Learning and https://www.manning.com/books/grokking-deep-learning?a_aid=grokkingdl&a_bid=32715258
 
-module HerculeP.CLI.GDL.FSharp.OneInputOneOutputNeuralNetwork
+module HerculeP.CLI.GDL.OneInputOneOutputNeuralNetwork
 
 [<Literal>]
 let title = "One input, one output neural network"

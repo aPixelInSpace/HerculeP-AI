@@ -4,7 +4,7 @@
 
 open System
 open HerculeP.CLI
-open HerculeP.CLI.GDL.FSharp
+open HerculeP.CLI.GDL
 
 [<EntryPoint>]
 let main argv =
@@ -36,5 +36,9 @@ let main argv =
     GradientDescentOneInputMultipleOutputs.runExperiments()
 
     GradientDescentMultipleInputsMultipleOutputs.runExperiments()
+
+    StreetLightsNumSharp.runExperiments()
+
+    StreetLightsNumSharpLearnAll.runExperiments()
 
     0 // return an integer exit code
