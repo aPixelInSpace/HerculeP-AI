@@ -22,6 +22,7 @@
         <Compile Include="GDL\GradientDescentMultipleInputsMultipleOutputs.fs" />
         <Compile Include="GDL\StreetLightsNumSharp.fs" />
         <Compile Include="GDL\StreetLightsNumSharpLearnAll.fs" />
+        <Compile Include="GDL\StreetLightsNumSharpMultiLayers.fs" />
         <Compile Include="MBML\MurderMystery.fs" />
         <Compile Include="InferTutorial\TwoCoins.fs" />
         <Compile Include="Program.fs" />
@@ -34,6 +35,7 @@
       <PackageReference Include="Microsoft.ML.Probabilistic.Learners" Version="0.3.2102.1701" />
       <PackageReference Include="Microsoft.ML.Probabilistic.Visualizers.Windows" Version="0.3.2102.1701" />
       <PackageReference Include="NumSharp" Version="0.30.0" />
+      <PackageReference Include="TensorFlow.NET" Version="0.40.1" />
     </ItemGroup>
 
     <ItemGroup>
